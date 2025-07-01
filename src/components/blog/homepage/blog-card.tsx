@@ -5,13 +5,13 @@ import Link from 'next/link';
 import { Blog } from '@/lib/types';
 export default function BlogCard({
   title,
-  description,
   date,
   featured,
   image,
   timeToRead,
   tags,
   slug,
+  blurb,
 }: Blog) {
   return (
     <Link
@@ -40,7 +40,7 @@ export default function BlogCard({
               <h3 className="group-hover:text-accent text-lg font-medium text-black transition-colors">
                 {title}
               </h3>
-              <p className="text-sm leading-relaxed text-gray-600">{description}</p>
+              <p className="text-sm leading-relaxed text-gray-600">{blurb}</p>
             </div>
             <div className="flex items-center justify-between text-xs text-gray-400">
               <time>{new Date(date).toLocaleDateString()}</time>

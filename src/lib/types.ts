@@ -10,4 +10,5 @@ export type Blog = {
   timeToRead?: number;
   tags?: string[];
   content: string;
+  blurb: string;
 };
