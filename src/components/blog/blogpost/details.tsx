@@ -1,16 +1,16 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 export interface DetailsProps {
-    references: Reference[];
-    headings: string[];
+  references: Reference[];
+  headings: string[];
 }
 
 type Reference = {
-    type: 'song' | 'artist' | 'concept';
-    title: string;
-    url?: string;
-}
-export default function Details({ references , headings }: DetailsProps) {
+  type: 'song' | 'artist' | 'concept';
+  title: string;
+  url?: string;
+};
+export default function Details({ references, headings }: DetailsProps) {
   return (
     <div>
       <h2>Headings</h2>
@@ -18,7 +18,7 @@ export default function Details({ references , headings }: DetailsProps) {
         <ul className="list-disc pl-5">
           {headings.map((heading, index) => (
             <Link key={index} href={`#${heading.toLowerCase().replace(/\s+/g, '-')}`}>
-              <li className="text-blue-600 hover:underline cursor-pointer">{heading}</li>
+              <li className="cursor-pointer text-blue-600 hover:underline">{heading}</li>
             </Link>
           ))}
         </ul>
@@ -26,5 +26,5 @@ export default function Details({ references , headings }: DetailsProps) {
         <p>No headings found.</p>
       )}
     </div>
-  )
+  );
 }
