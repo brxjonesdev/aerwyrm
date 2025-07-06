@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template-post.mdx",
+                "file": "start.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "template-post"
+              "title": "start"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "3bc8a8c446299238",
   "lastOpenFiles": [
-    "start.mdx",
     "template-post.mdx",
+    "start.mdx",
     "Untitled.md",
     "Untitled",
     "Welcome.mdx.md"
