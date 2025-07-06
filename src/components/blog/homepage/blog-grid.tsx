@@ -7,7 +7,10 @@ export default function BlogGrid({ category = 'all' }: { category?: string }) {
   const blogPosts: Blog[] = getAllPosts();
   return (
     <ScrollArea className="flex-1 overflow-scroll pr-4">
-      <section className="grid h-full w-full gap-6 sm:grid-cols-1 lg:grid-cols-4">
+      <section
+        className="grid h-full w-full gap-6 grid-cols-[repeat(auto-fill,minmax(300px,1fr))] lg:grid-cols-[repeat(auto-fill,minmax(350px,1fr))] 
+        xl:grid-cols-[repeat(auto-fill,minmax(400px,1fr))] grid-rows-[repeat(auto-fill,350px)]"
+      >
         {blogPosts
           .filter((post) => category === 'all' || post.category === category)
           .sort((a, b) => {

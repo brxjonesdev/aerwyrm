@@ -16,12 +16,12 @@ export default function BlogCard({
   return (
     <Link
       href={`/post/${slug}`}
-      className={`w-full no-underline ${featured ? 'lg:col-span-2' : ''} h-full`}
+      className={`w-full no-underline ${featured ? 'lg:col-span-2 ' : ''}`}
     >
       <article
-        className={`group h-full cursor-pointer overflow-hidden ${featured ? 'lg:col-span-2' : ''} hover:bg-primary/20 rounded-xl border p-2 transition-colors duration-300`}
+        className={`group h-full cursor-pointer overflow-hidden  hover:bg-primary/20 rounded-xl border p-2 transition-colors duration-300`}
       >
-        <div className={`relative ${featured ? 'h-full' : ''} flex flex-col gap-2`}>
+        <div className={`relative ${featured ? 'h-full flex-row' : ''} flex flex-col gap-2`}>
           {image ? (
             <div
               className={`aspect-[14/10] overflow-hidden rounded-xl bg-gray-100 ${featured ? 'w-full lg:max-h-[166px]' : ''} `}
@@ -33,9 +33,9 @@ export default function BlogCard({
               />
             </div>
           ) : (
-            <div className="flex aspect-[14/10] items-center justify-center rounded-xl bg-gradient-to-r from-blue-200 to-cyan-200"></div>
+            <div className="flex aspect-[16/10] items-center justify-center rounded-xl bg-gradient-to-r from-blue-200 to-cyan-200"></div>
           )}
-          <div className="flex flex-1 flex-col space-y-4 p-2">
+          <div className={`flex flex-1 flex-col space-y-4 p-2 ${featured ? 'mt-auto' : ''}`}>
             <div className="space-y-2">
               <h3 className="group-hover:text-accent text-lg font-medium text-black transition-colors">
                 {title}

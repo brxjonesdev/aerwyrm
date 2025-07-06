@@ -21,7 +21,7 @@ export default async function Home({
         </section>
 
         <div className="mt-4 flex gap-8 overflow-y-hidden">
-          <SidebarMenu />
+          {/* <SidebarMenu /> */}
           <BlogGrid category={category as string} />
         </div>
       </section>
