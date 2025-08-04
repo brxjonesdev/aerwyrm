@@ -11,10 +11,14 @@
             "id": "91f259bf70c09b97",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "synth-basics/never.mdx",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "never"
             }
           }
         ]
@@ -165,10 +169,10 @@
   },
   "active": "9de1467a4f9fbd20",
   "lastOpenFiles": [
-    "synth-basics/template.mdx",
-    "subtractive/template.mdx",
-    "subtractive/Untitled.md",
+    "subtractive/info.mdx",
+    "synth-basics/never.mdx",
     "subtractive/template 1 1 1 1.mdx",
+    "subtractive/Untitled.md",
     "synth-basics/template 1 1 1.mdx",
     "Untitled.md",
     "subtractive",
