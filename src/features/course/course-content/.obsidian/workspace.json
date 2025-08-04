@@ -11,14 +11,10 @@
             "id": "91f259bf70c09b97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "template 1.mdx",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "template 1"
+              "title": "New tab"
             }
           }
         ]
@@ -167,19 +163,23 @@
       "edit-mdx:New .mdx file": false
     }
   },
-  "active": "91f259bf70c09b97",
+  "active": "9de1467a4f9fbd20",
   "lastOpenFiles": [
+    "synth-basics/template.mdx",
+    "subtractive/template.mdx",
+    "subtractive/Untitled.md",
+    "subtractive/template 1 1 1 1.mdx",
+    "synth-basics/template 1 1 1.mdx",
+    "Untitled.md",
+    "subtractive",
+    "template 1 1.mdx",
+    "synth-basics",
     "template 1.mdx",
     "privatecreationvspublicexpression.mdx",
     "template.mdx",
     "understanding-digital-signals-chapter-one.mdx",
-    "images",
-    "template-post.mdx",
     "Outline.md",
     "2025-07-01.md",
-    "wheelhouse-project.mdx",
-    "Private Creation vs Public Expression.mdx",
-    "start.mdx",
     "Welcome.mdx.md"
   ]
 }
