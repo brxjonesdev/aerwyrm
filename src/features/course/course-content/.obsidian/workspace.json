@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "synth-basics/never.mdx",
+                "file": "synth-basics/what-is-synthesis.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "never"
+              "title": "what-is-synthesis"
             }
           }
         ]
@@ -167,10 +167,11 @@
       "edit-mdx:New .mdx file": false
     }
   },
-  "active": "9de1467a4f9fbd20",
+  "active": "91f259bf70c09b97",
   "lastOpenFiles": [
+    "synth-basics/boog-wwa.mdx",
+    "synth-basics/what-is-synthesis.mdx",
     "subtractive/info.mdx",
-    "synth-basics/never.mdx",
     "subtractive/template 1 1 1 1.mdx",
     "subtractive/Untitled.md",
     "synth-basics/template 1 1 1.mdx",
@@ -181,7 +182,6 @@
     "template 1.mdx",
     "privatecreationvspublicexpression.mdx",
     "template.mdx",
-    "understanding-digital-signals-chapter-one.mdx",
     "Outline.md",
     "2025-07-01.md",
     "Welcome.mdx.md"

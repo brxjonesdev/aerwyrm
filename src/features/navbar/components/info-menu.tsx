@@ -34,7 +34,7 @@ export default function InfoMenu() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className='pb-2'>
-        <DropdownMenuLabel>Have Feedback?</DropdownMenuLabel>
+        {/* <DropdownMenuLabel>Have Feedback?</DropdownMenuLabel>
         <DropdownMenuItem
           className='cursor-pointer py-1 focus:bg-transparent focus:underline'
           asChild
@@ -45,7 +45,7 @@ export default function InfoMenu() {
               Report an issue
             </span>
           </a>
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
         <DropdownMenuLabel>Built by @brxjonesdev</DropdownMenuLabel>
         <DropdownMenuItem
           className='cursor-pointer py-1 focus:bg-transparent focus:underline'

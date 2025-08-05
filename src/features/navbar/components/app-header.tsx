@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { NavigationLink } from '../types';
 import InfoMenu from './info-menu';
 import Logo from './logo';
@@ -13,9 +14,13 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/shared/ui/popover';
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks: NavigationLink[] = [
-  { href: '/', label: 'Home' },
-  { href: '/playground', label: 'Playground', status: 'planned' },
-  { href: '/community', label: 'Community', status: 'planned' },
+  {
+    href: '/course/?chapter=what-is-synthesis&section=synth-basics',
+    disabled: false,
+    label: 'Course',
+  },
+  { href: '/playground', label: 'Playground', disabled: true },
+  { href: '/community', label: 'Community', disabled: true },
 ];
 
 export default function AppHeader() {
@@ -75,9 +80,9 @@ export default function AppHeader() {
           </Popover>
           {/* Main nav */}
           <div className='flex items-center gap-6'>
-            <a href='#' className='text-primary hover:text-primary/90'>
+            <Link href='/' className='flex items-center gap-2'>
               <Logo />
-            </a>
+            </Link>
             {/* Navigation menu */}
             <NavigationMenu className='max-md:hidden'>
               <NavigationMenuList className='gap-2'>

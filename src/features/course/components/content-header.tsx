@@ -16,10 +16,18 @@ import React from 'react';
 import CourseContent from './course-content';
 import { redirect } from 'next/navigation';
 
-export default function ContentHeader({ section, chapter }: { section?: string, chapter?: string }) {
+export default function ContentHeader({
+  section,
+  chapter,
+}: {
+  section?: string;
+  chapter?: string;
+}) {
   const formatSectionName = (name: string) => {
-    return name.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
-  }
+    return name
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, (c: string) => c.toUpperCase());
+  };
 
   return (
     <div className='flex gap-2'>
