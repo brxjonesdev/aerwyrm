@@ -14,7 +14,7 @@ import {
 } from '@/shared/ui/sheet';
 import React from 'react';
 import CourseContent from './course-content';
-import { redirect } from 'next/navigation';
+
 
 export default function ContentHeader({
   section,

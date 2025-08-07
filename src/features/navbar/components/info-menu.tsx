@@ -1,10 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import {
-  BookIcon,
-  GithubIcon,
   InfoIcon,
-  LifeBuoyIcon,
-  MessageCircleMoreIcon,
 } from 'lucide-react';
 
 import { Button } from '@/shared/ui/button';

@@ -12,7 +12,7 @@ import {
 } from '@/shared/ui/navigation-menu';
 import { Popover, PopoverContent, PopoverTrigger } from '@/shared/ui/popover';
 
-// Navigation links array to be used in both desktop and mobile menus
+
 const navigationLinks: NavigationLink[] = [
   {
     href: '/course/?chapter=what-is-synthesis&section=synth-basics',

@@ -1,5 +1,4 @@
 import Theremin from '@/features/interactive-components/theremin/theremin';
-import { Badge } from 'lucide-react';
 import React from 'react';
 
 export default function page() {
@@ -52,7 +51,7 @@ export default function page() {
           </h2>
         </div>
         <div className="flex gap-10 pt-4 flex-col w-full">
-          <div className="grid grid-cols-2 items-start lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 items-start lg:grid-cols-3 gap-10">
             {features.map((feature, index) => (
               <div className="flex flex-row gap-6 items-start" key={index}>
                 <div className="flex flex-col gap-1">

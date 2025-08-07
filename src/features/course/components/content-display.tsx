@@ -2,6 +2,8 @@ import React from 'react';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { compileMDX } from 'next-mdx-remote/rsc';
+import { redirect } from 'next/navigation';
+
 
 export default async function ContentDisplay({
   section = 'synth-basics',
@@ -38,5 +40,6 @@ export default async function ContentDisplay({
     </div>
   );
 }catch (error) {
-  console.error("Error loading content:", error);
+  redirect(`/course`);
+  console.error(`Error reading file ${filePath}:`, error);
 }}

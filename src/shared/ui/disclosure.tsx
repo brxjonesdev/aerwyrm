@@ -183,9 +183,3 @@ export function DisclosureContent({
   );
 }
 
-export default {
-  Disclosure,
-  DisclosureProvider,
-  DisclosureTrigger,
-  DisclosureContent,
-};
